@@ -1,0 +1,1 @@
+console.log('Crypto Arbitrage Finder - Starting...');

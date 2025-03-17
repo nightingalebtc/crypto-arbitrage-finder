@@ -1,0 +1,8 @@
+node_modules/
+.claude
+*.log
+.env
+dist/
+CLAUDE.md
+*.tmp
+coverage/

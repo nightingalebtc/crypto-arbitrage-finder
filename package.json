@@ -1,0 +1,20 @@
+{
+  "name": "crypto-arbitrage-finder",
+  "version": "0.1.0",
+  "description": "A tool to find arbitrage opportunities across crypto exchanges",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "crypto",
+    "arbitrage",
+    "trading",
+    "cryptocurrency"
+  ],
+  "author": "nightingalebtc",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
