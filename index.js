@@ -1,6 +1,7 @@
 const Binance = require('./lib/binance');
 const OKX = require('./lib/okx');
 const ArbitrageFinder = require('./lib/arbitrage');
+const config = require('./config.json');
 
 console.log('Crypto Arbitrage Finder - Starting...');
 
@@ -10,7 +11,7 @@ const exchanges = [
 ];
 
 const finder = new ArbitrageFinder(exchanges);
-const symbols = ['BTCUSDT', 'ETHUSDT', 'ADAUSDT'];
+const symbols = config.symbols;
 
 finder.findOpportunities(symbols).then(opportunities => {
   console.log('\n=== Arbitrage Opportunities ===');

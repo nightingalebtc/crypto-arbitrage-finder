@@ -1,0 +1,12 @@
+{
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "ADAUSDT",
+    "BNBUSDT",
+    "SOLUSDT",
+    "XRPUSDT"
+  ],
+  "minProfitPercent": 0.1,
+  "exchanges": ["binance", "okx"]
+}
