@@ -8,5 +8,5 @@
     "XRPUSDT"
   ],
   "minProfitPercent": 0.1,
-  "exchanges": ["binance", "okx"]
+  "exchanges": ["binance", "okx", "bybit"]
 }

@@ -1,5 +1,6 @@
 const Binance = require('./lib/binance');
 const OKX = require('./lib/okx');
+const Bybit = require('./lib/bybit');
 const ArbitrageFinder = require('./lib/arbitrage');
 const config = require('./config.json');
 
@@ -7,7 +8,8 @@ console.log('Crypto Arbitrage Finder - Starting...');
 
 const exchanges = [
   new Binance(),
-  new OKX()
+  new OKX(),
+  new Bybit()
 ];
 
 const finder = new ArbitrageFinder(exchanges);
